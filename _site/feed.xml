@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jekyll Bootstrap</title>
+    <title>Notes,Thoughts,Mistakes</title>
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 29 Aug 2015 08:52:07 +0800</pubDate>
-    <lastBuildDate>Sat, 29 Aug 2015 08:52:07 +0800</lastBuildDate>
+    <pubDate>Sat, 29 Aug 2015 09:37:26 +0800</pubDate>
+    <lastBuildDate>Sat, 29 Aug 2015 09:37:26 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>

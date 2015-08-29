@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Jekyll Bootstrap</title>
- <link href="http://username.github.io/atom.xml" rel="self"/>
- <link href="http://username.github.io"/>
- <updated>2015-08-29T08:52:07+08:00</updated>
- <id>http://username.github.io</id>
+ <title>Notes,Thoughts,Mistakes</title>
+ <link href="http://daveztong.github.io/atom.xml" rel="self"/>
+ <link href="http://daveztong.github.io"/>
+ <updated>2015-08-29T09:37:26+08:00</updated>
+ <id>http://daveztong.github.io</id>
  <author>
-   <name>Name Lastname</name>
-   <email>blah@email.test</email>
+   <name>修行的老唐</name>
+   <email>daveztong#gmail.com</email>
  </author>
 
  
  <entry>
    <title>Jekyll Introduction</title>
-   <link href="http://username.github.io/lessons/2011/12/29/jekyll-introduction"/>
+   <link href="http://daveztong.github.io/lessons/2011/12/29/jekyll-introduction"/>
    <updated>2011-12-29T00:00:00+08:00</updated>
-   <id>http://username.github.io/lessons/2011/12/29/jekyll-introduction</id>
+   <id>http://daveztong.github.io/lessons/2011/12/29/jekyll-introduction</id>
    <content type="html">
 &lt;p&gt;This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we’ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
