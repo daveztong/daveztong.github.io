@@ -1,154 +1,223 @@
+
 <!DOCTYPE html>
-<html>    
+<html lang="en">
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Your awesome title</title>
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-">
+    <title>Hello World!</title>
+    
+    <meta name="author" content="Name Lastname">
 
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://yourdomain.com/">
-  <link rel="alternate" type="application/atom+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml" />
-  <script src="/scripts/jquery-1.11.2.min.js"></script>
-  <script src="/scripts/pithy.js"></script>
-</head>
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link href="/assets/themes/bootstrap-3/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
 
   <body>
-    <header class="header">
-	<div class="header-container">
-		<div class="nav">
-			
-			<span class="title">
-				<li>
-					<a href="/index.html">home</a>
-				</li>
-			</span>			
-			
-			
-				<li>
-					<a href="/archive.html">archive</a>
-				</li>			
-			
-			
-				<li>
-					<a href="/category.html">category</a>
-				</li>			
-			
-			
-				<li>
-					<a href="/about.html">about</a>
-				</li>			
-			
-		</div>
-		<div class="description"> Your motto </div>		
-		<ul class="social-links">
-			<li>
-				<a href="https://github.com/jekyll" title="Github">
-					<img width="19px" height="19px" src="/images/github.png"/>
-				</a>
-			</li>
-			<li>
-				<a href="/feed.xml" title="RSS">
-					<img width="19px" height="19px" src="/images/rss.png"/>
-				</a>
-			</li>
-			<li>
-				<a href="https://twitter.com/jekyllrb" title="Twitter">
-					<img width="19px" height="19px" src="/images/twitter.png"/>
-				</a>
-			</li>
-		</ul>		
-	</div>
-</header>
-
-    <br>
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="home">
-  <ul class="post-list">
-    
-      <li>
-        <br>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2015/08/29/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h3>
-        <span class="post-meta">Aug 29, 2015 01:08</span>
-        <hr id="line">
-		<div class="content">
-		<p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-
+    <div id="wrap">
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Jekyll Bootstrap</a>
         </div>
-		<br>
-      </li>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
     
-      <li>
-        <br>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2015/04/09/welcome-to-jekyll%20copy.html">Welcome to Jekyll!</a>
-        </h3>
-        <span class="post-meta">Apr 9, 2015 19:04</span>
-        <hr id="line">
-		<div class="content">
-		<p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-
-        </div>
-		<br>
-      </li>
+  
     
-      <li>
-        <br>
-        <h3>
-          <a class="post-link" href="/cv/2014/11/27/jian-li-on-the-way-to-be-a-developer.html">简历:On the way to be a developer</a>
-        </h3>
-        <span class="post-meta">Nov 27, 2014 21:11</span>
-        <hr id="line">
-		<div class="content">
-		<h1 id="basic-info">Basic info</h1>
-<p>唐伟 | 男 | 24岁 | 毕业于成都理工大学 | 现居四川成都 。
-从事<code>Android</code>开发约2年，期间也做过<code>ios</code>，<code>web</code>开发等。
-联系电话: 151#8444#7713 
-E-mail: daveztong#gmail.com
-常用博客: <a href="http://my.oschina.net/javaTechLover/blog">daveztong</a>,Octopress的这个搜索不太给力。</p>
-
-
-        </div>
-		<br>
-      </li>
+      
     
-      <li>
-        <br>
-        <h3>
-          <a class="post-link" href="/%E6%9C%AA%E5%88%86%E7%B1%BB/2014/11/12/qian-yi-bo-ke-dao-github.html">迁移博客到Github</a>
-        </h3>
-        <span class="post-meta">Nov 12, 2014 23:11</span>
-        <hr id="line">
-		<div class="content">
-		<h1 id="section">博客历程</h1>
-
-
-        </div>
-		<br>
-      </li>
+  
     
-  </ul>
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+
+      <div class="container">
+        
+<div class="page-header">
+  <h1>Hello World!  <small>Supporting tagline</small></h1>
 </div>
 
+<div class="row">
+  <div class="col-xs-12">
+    
+<p>Read <a href="http://jekyllbootstrap.com/usage/jekyll-quick-start.html">Jekyll Quick Start</a></p>
+
+<p>Complete usage and documentation available at: <a href="http://jekyllbootstrap.com">Jekyll Bootstrap</a></p>
+
+<h2 id="update-author-attributes">Update Author Attributes</h2>
+
+<p>In <code>_config.yml</code> remember to specify your own data:</p>
+
+<pre><code>title : My Blog =)
+
+author :
+  name : Name Lastname
+  email : blah@email.test
+  github : username
+  twitter : username
+</code></pre>
+
+<p>The theme should reference these variables whenever needed.</p>
+
+<h2 id="sample-posts">Sample Posts</h2>
+
+<p>This blog contains sample posts which help stage pages and blog data.
+When you don’t need the samples anymore just delete the <code>_posts/core-samples</code> folder.</p>
+
+<pre><code>$ rm -rf _posts/core-samples
+</code></pre>
+
+<p>Here’s a sample “posts list”.</p>
+
+<ul class="posts">
+  
+    <li><span>29 Dec 2011</span> &raquo; <a href="/lessons/2011/12/29/jekyll-introduction">Jekyll Introduction</a></li>
+  
+</ul>
+
+<h2 id="to-do">To-Do</h2>
+
+<p>This theme is still unfinished. If you’d like to be added as a contributor, <a href="http://github.com/plusjade/jekyll-bootstrap">please fork</a>!
+We need to clean up the themes, make theme usage guides with theme-specific markup examples.</p>
+
+
+  </div>
+</div>
+
+
+      </div>
+
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p>&copy; 2015 Name Lastname
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+        </p>
       </div>
     </div>
-    
-    <footer class="footer">
-  <div id="gotop">^</div>
-  <br>
-	@2015 Pithy Theme by Pawpaw.
-</footer>
 
     
+
+
+
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js"></script>
   </body>
-
 </html>
+
