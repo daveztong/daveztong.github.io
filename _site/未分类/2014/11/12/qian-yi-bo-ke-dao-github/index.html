@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Hello World</title>
-    <meta name="description" content="">
+    <title>迁移博客到Github</title>
+    
     <meta name="author" content="修行的老唐">
 
     <!-- Enable responsive viewport -->
@@ -144,19 +144,118 @@
       <div class="container">
         
 <div class="page-header">
-  <h1>Hello World </h1>
+  <h1>迁移博客到Github </h1>
 </div>
 
 <div class="row post-full">
   <div class="col-xs-12">
     <div class="date">
-      <span>29 August 2015</span>
+      <span>12 November 2014</span>
     </div>
     <div class="content">
-      
+      <h1 id="section">博客历程</h1>
+
+<p><a href="http://www.cnblogs.com/JavaTechLover/" title="daveztong">CNBlog</a>-&gt;<a href="http://waye.me/" title="daveztong">waye.me</a> (closed)-&gt;<a href="http://my.oschina.net/javaTechLover/blog" title="daveztong">OSChina</a>-&gt;Now here i am.</p>
+
+<p>正如<a href="http://www.ruanyifeng.com/">阮一峰</a>所说,喜欢写博客的人一半会经历三个阶段:
+&gt; 1. 第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。
+&gt; 2. 第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。
+&gt; 3. 第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。</p>
+
+<p>我想我现在处于第三个阶段吧。虽然语文学的不好，但我一直都有写博客记录自己学习的习惯，写博客证明我还在学习还在进步，不管写的真么样，但总还是有一些收获的。辗转过这么多部落,finally, i am home!</p>
+
+<p><strong><span style="color:red">Stop being a sentimentalist ^_^</span></strong> </p>
+
+<p>ok,废话少说，还是先记录一下Octopress的安装和使用吧!</p>
+
+<h1 id="section-1">1.前提条件</h1>
+<blockquote>
+  <ul>
+    <li>安装git</li>
+    <li>ruby</li>
+  </ul>
+</blockquote>
+
+<h1 id="setup-octopress">2.Setup Octopress</h1>
+
+<p><code>
+git clone git://github.com/imathis/octopress.git octopress
+cd octopress
+</code>
+Next, install dependencies.</p>
+
+<p><code>
+gem install bundler
+rbenv rehash    # If you use rbenv, rehash to be able to run the bundle command
+bundle install
+</code>
+Install the default Octopress theme.</p>
+
+<p><code>
+rake install
+</code>
+# 3.部署到github pages
+Create a <a href="https://github.com/repositories/new">new Github repository</a> and name the repository with the format <code>username.github.io</code>, where <code>username</code> is your GitHub user name or organization name.</p>
+
+<p>Github Pages for users and organizations uses the master branch like the public directory on a web server, serving up the files at your Pages url <code>http://username.github.io</code>. As a result, you’ll want to work on the source for your blog in the source branch and commit the generated content to the master branch. Octopress has a configuration task that helps you set all this up.</p>
+
+<p><code>
+rake setup_github_pages
+</code>
+The rake task will ask you for a URL of the Github repo. Copy the SSH or HTTPS URL from your newly created repository (e.g. <code>https://github.com/daveztong/daveztong.github.io.git</code>) and paste it in as a response.</p>
+
+<p>This will:</p>
+
+<ol>
+  <li>Ask for and store your Github Pages repository url.</li>
+  <li>Rename the remote pointing to imathis/octopress from ‘origin’ to ‘octopress’</li>
+  <li>Add your Github Pages repository as the default origin remote.</li>
+  <li>Switch the active branch from master to source.</li>
+  <li>Configure your blog’s url according to your repository.</li>
+  <li>Setup a master branch in the <code>_deploy</code> directory for deployment.</li>
+</ol>
+
+<p>Next run:
+<code>
+rake generate
+rake deploy
+</code>
+This will generate your blog, copy the generated files into <code>_deploy/</code>, add them to git, commit and push them up to the master branch. In a few seconds you should get an email from Github telling you that your commit has been received and will be published on your site.</p>
+
+<p><strong>Don’t forget</strong> to commit the source for your blog.</p>
+
+<p><code>
+git add .
+git commit -m 'your message'
+git push origin source
+</code>
+<strong>Note</strong>: With new repositories, Github sets the default branch based on the branch you push first, and it looks there for the generated site content. If you’re having trouble getting Github to publish your site, go to the admin panel for your repository and make sure that the master branch is the default branch.</p>
+
+<p>To read more on creating your first blog post, read <a href="http://octopress.org/docs/blogging/">Blogging Basics</a></p>
+
+<h2 id="then-you-are-good-to-go">Then you are good to go.</h2>
+
+<hr />
 
     </div>
 
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#未分类-ref">
+    		未分类 <span>1</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
     
 
     
@@ -168,7 +267,7 @@
     
       <li><a href="/archive.html">Archive</a></li>
     
-      <li class="next disabled"><a>Next &rarr;</a>
+      <li class="next"><a href="/cv/2014/11/27/jian-li-on-the-way-to-be-a-developer" title="简历:On the way to be a developer">Next &raquo;</a></li>
     
     </ul>
     <hr>
