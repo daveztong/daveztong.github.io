@@ -96,7 +96,7 @@ Response:
 PUT操作是幂等的,POST非幂等。PUT的每一次操作在既定情况下都得到相同的结果,POST却是每一次都不同。
 
 
-# 广泛采用的: HTTP API 设计指南
+# Best practises
 
 ### 基础
 
@@ -401,3 +401,8 @@ $ curl -is https://$TOKEN@service.com/users
 更多关于可能的稳定性和改变管理的方式，查看 [Heroku API compatibility policy](https://devcenter.heroku.com/articles/api-compatibility-policy)
 
 一旦你的API宣布产品正式版本及稳定版本时，不要在当前API版本中做一些不兼容的改变。如果你需要，请创建一个新的版本的API。
+
+# 完整的URL
+API里面的数据也会有URL类型的，一般来说如用户的头像、各种图片、音频等资源，都是以URL链接的形式返回的。
+
+返回的URL一定要“完整”，主要指的是不要忘记URL里面的协议部分，也就是`scheme`部分。
