@@ -17,6 +17,7 @@ Spring 自从2.0开始就为基础的xml格式提供了一个基于xml schema的
 
 下面依照以上四个步骤并附一个示例详细讲解。完整代码放在码云上:https://git.oschina.net/android-speeder/springcustomxml.git
 
+<!-- more -->
 
 
 ## 创建schema文件

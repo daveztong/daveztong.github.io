@@ -7,6 +7,11 @@ tags: MySQL
 
 # mysql index and best practice handout
 
+
+讲讲MySQL的最佳实践和容易踩到的坑。
+
+<!-- more -->
+
 ## syntax
 ```sql
 CREATE [TEMPORARY] TABLE [IF NOT EXISTS] tbl_name

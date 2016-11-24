@@ -20,6 +20,8 @@ tags: REST
 1. Scalability
 1. Flexibility
 
+<!-- more -->
+
 # Keep it simple
 
 Rest简单理解就是对资源的管理。资源可分为基本的两类:

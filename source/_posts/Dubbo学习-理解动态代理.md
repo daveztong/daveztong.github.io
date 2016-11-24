@@ -16,7 +16,7 @@ tags: [dubbo,proxy,javassist]
 1. 代理如何创建的。仅仅只是配置了`<dubbo:reference interface="x.y.z.ServiceInterface" id="serviceId"/>`并将其交给了spring container，然后直接注入并使用该接口的方法就可以完成调用了，然而我并没有为该接口实现具体的类，how does it works? 
 2. ~~远程调用如何执行的。假设已经有了具体的实现类，怎么实现远程调用的呢，Thingking?~~ 由于第一个分析就很长，这个目标列入下一次分析。
 
-
+<!-- more -->
 
 ## 预备知识
 

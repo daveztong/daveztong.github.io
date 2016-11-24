@@ -20,6 +20,8 @@ tags: [effective, java]
 1. 正常返回但是返回的是错误的结果。
 1. 同样是正常返回，但是埋下了祸根，可能产生了其他状态有问题的数据，导致在不定时的将来产生不可预知的问题。
 
+<!-- more -->
+
 ## 抛出异常
 对需要抛出异常的public方法，应该使用@throws说明。常见的如:`IllegalArgumentException`,`NPE`,`IndexOutOfBoundsException` etc. 
 

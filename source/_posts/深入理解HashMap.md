@@ -19,6 +19,8 @@ V remove(Object key)
 Boolean containsKey(Object key)
 ```
 
+<!-- more -->
+
 HashMap使用`Entry<K, V>`作为内部存储值的结构,基本结构:
 ```
 static class Entry<K,V> implements Map.Entry<K,V> {
