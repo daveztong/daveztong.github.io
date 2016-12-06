@@ -4,7 +4,7 @@
   <url>
     <loc>http://yoursite.com/2016/12/06/wkhtmltopdf%E6%8A%98%E8%85%BE%E8%AE%B0/</loc>
     
-    <lastmod>2016-12-06T05:49:54.000Z</lastmod>
+    <lastmod>2016-12-06T06:08:08.000Z</lastmod>
     
   </url>
   
@@ -12,6 +12,13 @@
     <loc>http://yoursite.com/2016/12/06/%E6%97%A5%E5%BF%97%E6%B8%85%E7%90%86%E8%84%9A%E6%9C%AC-md/</loc>
     
     <lastmod>2016-12-06T03:44:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/11/01/Spring%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84XML%E9%85%8D%E7%BD%AE/</loc>
+    
+    <lastmod>2016-11-24T10:19:30.000Z</lastmod>
     
   </url>
   
@@ -44,14 +51,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/11/01/Spring%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84XML%E9%85%8D%E7%BD%AE/</loc>
+    <loc>http://yoursite.com/2016/06/27/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3HashMap/</loc>
     
     <lastmod>2016-11-24T10:19:30.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/06/27/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3HashMap/</loc>
+    <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2016-11-24T10:19:30.000Z</lastmod>
     
@@ -72,13 +79,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2016-11-24T10:19:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/tags/index.html</loc>
     
     <lastmod>2016-11-24T10:19:30.000Z</lastmod>
@@ -86,7 +86,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
+    <loc>http://yoursite.com/about/index.html</loc>
     
     <lastmod>2016-11-24T10:19:30.000Z</lastmod>
     

@@ -78,6 +78,20 @@ cp wkhtmltopdf /bin
 
 
 
+#### 字体安装
+
+由于服务器缺少部分字体，所以还需安装中文字体，从windows下拷来字体放至服务器.  [百度网盘](https://pan.baidu.com/s/1bNTmIq)放了份字体.
+
+```shell
+cp fonts to /usr/share/fonts/chinese_fonts
+# 为了字体起效果，而且不重启机器
+fc-cache /usr/share/fonts/chinese_fonts
+# 查看安装的字体
+fc-list
+```
+
+
+
 ## Code
 
 一开始使用的是[Java WkHtmlToPdf Wrapper](https://github.com/jhonnymertz/java-wkhtmltopdf-wrapper), 但在使用过程中偶尔会出现`HostNotFoundError`. 所以放弃了。看了下源码不是很多代码，自己写了个调用`wkhtmltopdf`。
